@@ -1,10 +1,10 @@
 {
   "name": "api-project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "engines": {
-  "node": ">=16"
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/nicpes/api-project/issues"
   },
-  "homepage": "https://github.com/nicpes/api-project#readme"
+  "homepage": "https://github.com/nicpes/api-project#readme",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
 }
